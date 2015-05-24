@@ -1,0 +1,28 @@
+{
+  "name": "apkJSCrawler-AndroidDrawer",
+  "version": "1.0.0",
+  "description": "Android Drawer plugin for apkJSCrawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacksonchen/apkJSCrawler-AndroidDrawer.git"
+  },
+  "author": "Jackson Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonchen/apkJSCrawler-AndroidDrawer/issues"
+  },
+  "homepage": "https://github.com/jacksonchen/apkJSCrawler-AndroidDrawer",
+  "dependencies": {
+    "apkJSCrawler": "git+https://git@github.com/jacksonchen/apkJSCrawler.git",
+    "async": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "follow-redirects": "0.0.3",
+    "lodash": "^3.6.0",
+    "nightmare": "^1.8.0",
+    "sanitize-filename": "^1.3.0"
+  }
+}
